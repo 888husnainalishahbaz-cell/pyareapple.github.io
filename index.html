@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Fatimah 💜</title>
+
+<style>
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:linear-gradient(135deg,#4b0082,#8a2be2,#d8b4fe);
+color:white;
+overflow:hidden;
+}
+
+.slide{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+}
+
+h1{
+font-size:3rem;
+text-shadow:0 0 20px #fff;
+}
+
+.card{
+background:rgba(255,255,255,0.15);
+backdrop-filter:blur(12px);
+padding:20px;
+border-radius:20px;
+max-width:700px;
+}
+
+img{
+width:180px;
+height:180px;
+object-fit:cover;
+border-radius:20px;
+margin:10px;
+box-shadow:0 0 20px rgba(255,255,255,.4);
+}
+
+.next{
+margin-top:20px;
+padding:12px 25px;
+border:none;
+border-radius:30px;
+background:white;
+color:#6a0dad;
+font-size:18px;
+cursor:pointer;
+}
+
+.hearts{
+position:fixed;
+width:100%;
+height:100%;
+pointer-events:none;
+}
+
+.heart{
+position:absolute;
+font-size:25px;
+animation:float 8s linear infinite;
+}
+
+@keyframes float{
+0%{transform:translateY(100vh);}
+100%{transform:translateY(-100px);}
+}
+</style>
+</head>
+<body>
+
+<audio autoplay loop>
+  <source src="birthday-song.mp3" type="audio/mpeg">
+</audio>
+
+<div class="slide" id="slide1">
+  <div class="card">
+    <h1>🎂 Happy Birthday Fatimah 💜</h1>
+    <p>Today is all about you ✨</p>
+    <button class="next" onclick="nextSlide()">Open Surprise 💖</button>
+  </div>
+</div>
+
+<div class="slide" id="slide2" style="display:none;">
+  <div class="card">
+    <h1>Fatimmm 🌙</h1>
+    <p>
+      May your life be filled with happiness,
+      success, BTS moments and endless smiles 💜✨
+    </p>
+
+    <!-- BTS images (replace with your own image URLs) -->
+    <img src="BTS_IMAGE_1.jpg">
+    <img src="BTS_IMAGE_2.jpg">
+  </div>
+</div>
+
+<div class="hearts" id="hearts"></div>
+
+<script>
+function nextSlide(){
+document.getElementById("slide1").style.display="none";
+document.getElementById("slide2").style.display="flex";
+}
+
+for(let i=0;i<30;i++){
+let h=document.createElement("div");
+h.className="heart";
+h.innerHTML="💜";
+h.style.left=Math.random()*100+"vw";
+h.style.animationDuration=(5+Math.random()*5)+"s";
+document.getElementById("hearts").appendChild(h);
+}
+</script>
+
+</body>
+</html>
