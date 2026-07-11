@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pyary Apple | Premium Apple Store</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            <i class="fa-brands fa-apple"></i>
+            <span>Pyary Apple</span>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">iPhones</a></li>
+            <li><a href="#">MacBooks</a></li>
+            <li><a href="#">Accessories</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+        <a href="#" class="whatsapp-btn">
+            <i class="fa-brands fa-whatsapp"></i>
+            WhatsApp                                             
+             <div class="menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+               </div>
+        </a>
+
+    </nav>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero">
+
+        <video autoplay muted loop playsinline class="hero-video">
+
+            <source src="assets/videos/hero.mp4" type="video/mp4">
+
+        </video>
+
+        <div class="overlay"></div>
+
+        <div class="hero-content">
+
+            <h1>Pakistan's Trusted Apple Store</h1>
+
+            <p>
+                Premium Apple Products • Best Prices • Trusted Warranty
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#" class="btn-red">
+                    Shop Now
+                </a>
+
+                <a href="#" class="btn-white">
+                    View Products
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= CATEGORIES ================= -->
+
+    <section class="categories">
+
+        <h2>Shop By Category</h2>
+
+        <div class="category-grid">
+
+            <div class="card">
+                <i class="fa-solid fa-mobile-screen"></i>
+                <h3>iPhone</h3>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-laptop"></i>
+                <h3>MacBook</h3>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-tablet-screen-button"></i>
+                <h3>iPad</h3>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-clock"></i>
+                <h3>Apple Watch</h3>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-headphones"></i>
+                <h3>AirPods</h3>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-plug-circle-bolt"></i>
+                <h3>Accessories</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FEATURED ================= -->
+
+    <section class="featured">
+
+        <h2>Featured Products</h2>
+
+        <div class="product-grid">
+
+            <div class="product-card">
+
+                <img src="assets/images/iphone16.jpg" alt="iPhone">
+
+                <h3>iPhone 16 Pro Max</h3>
+
+                <p>Factory Unlocked</p>
+
+                <h4>Rs. 425,000</h4>
+
+                <a href="#">View Details</a>
+
+            </div>
+
+            <div class="product-card">
+
+                <img src="assets/images/macbook.jpg" alt="MacBook">
+
+                <h3>MacBook Air M4</h3>
+
+                <p>Latest Apple Chip</p>
+
+                <h4>Rs. 359,000</h4>
+
+                <a href="#">View Details</a>
+
+            </div>
+
+            <div class="product-card">
+
+                <img src="assets/images/watch.jpg" alt="Watch">
+
+                <h3>Apple Watch Ultra</h3>
+
+                <p>Original Apple</p>
+
+                <h4>Rs. 229,000</h4>
+
+                <a href="#">View Details</a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= WHY US ================= -->
+
+    <section class="why-us">
+
+        <h2>Why Choose Pyary Apple?</h2>
+
+        <div class="why-grid">
+
+            <div>
+                <i class="fa-solid fa-shield"></i>
+                <h3>100% Genuine Products</h3>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-truck-fast"></i>
+                <h3>Fast Delivery</h3>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-headset"></i>
+                <h3>Customer Support</h3>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-medal"></i>
+                <h3>Trusted Store</h3>
+            </div>
+
+        </div>
+
+    </section>
+                <a href="https://wa.me/923001234567" class="floating-whatsapp">
+ 
+                 <i class="fab fa-whatsapp"></i>
+
+                     </a>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <h2>Pyary Apple</h2>
+
+        <p>
+            Pakistan's Premium Apple Store
+        </p>
+
+        <p>
+            © 2026 All Rights Reserved
+        </p>
+
+    </footer>
+
+    <script src="js/app.js"></script>
+
+</body>
+</html>

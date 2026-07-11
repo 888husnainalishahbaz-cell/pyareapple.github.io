@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Contact Us | Pyary Apple</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+
+<style>
+
+.contact-header{
+margin-top:80px;
+height:45vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:#080808;
+text-align:center;
+}
+
+.contact-header h1{
+font-size:58px;
+margin-bottom:10px;
+}
+
+.contact-header p{
+color:#bbb;
+font-size:20px;
+}
+
+.contact-container{
+padding:80px 8%;
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:50px;
+}
+
+.contact-box{
+background:#111;
+padding:40px;
+border-radius:20px;
+}
+
+.contact-box h2{
+margin-bottom:25px;
+}
+
+.contact-box p{
+color:#ccc;
+margin:18px 0;
+font-size:17px;
+}
+
+.contact-box i{
+color:#ff3b3b;
+margin-right:12px;
+}
+
+.contact-form input,
+.contact-form textarea{
+width:100%;
+padding:16px;
+margin-bottom:18px;
+background:#1a1a1a;
+border:none;
+border-radius:12px;
+color:#fff;
+font-size:16px;
+outline:none;
+}
+
+.contact-form textarea{
+height:180px;
+resize:none;
+}
+
+.contact-form button{
+width:100%;
+padding:16px;
+background:#ff3b3b;
+border:none;
+color:#fff;
+font-size:18px;
+border-radius:12px;
+cursor:pointer;
+transition:.3s;
+}
+
+.contact-form button:hover{
+background:#d92d2d;
+}
+
+.socials{
+margin-top:25px;
+display:flex;
+gap:18px;
+}
+
+.socials a{
+width:50px;
+height:50px;
+background:#222;
+display:flex;
+justify-content:center;
+align-items:center;
+border-radius:50%;
+text-decoration:none;
+color:#fff;
+font-size:20px;
+transition:.3s;
+}
+
+.socials a:hover{
+background:#ff3b3b;
+}
+
+.map{
+padding:0 8% 80px;
+}
+
+.map iframe{
+width:100%;
+height:450px;
+border:none;
+border-radius:20px;
+}
+
+@media(max-width:900px){
+
+.contact-container{
+grid-template-columns:1fr;
+}
+
+.contact-header h1{
+font-size:40px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav class="navbar">
+
+<div class="logo">
+<i class="fa-brands fa-apple"></i>
+<span>Pyary Apple</span>
+</div>
+
+<ul class="nav-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="products.html">Products</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+
+<a href="#" class="whatsapp-btn">
+<i class="fa-brands fa-whatsapp"></i>
+WhatsApp
+</a>
+
+</nav>
+
+<section class="contact-header">
+
+<div>
+
+<h1>Contact Us</h1>
+
+<p>We'd Love To Hear From You</p>
+
+</div>
+
+</section>
+
+<section class="contact-container">
+
+<div class="contact-box">
+
+<h2>Get In Touch</h2>
+
+<p><i class="fa-solid fa-location-dot"></i> Lahore, Pakistan</p>
+
+<p><i class="fa-solid fa-phone"></i> +92 300 1234567</p>
+
+<p><i class="fa-solid fa-envelope"></i> info@pyaryapple.com</p>
+
+<p><i class="fa-solid fa-clock"></i> Mon - Sat | 11 AM - 9 PM</p>
+
+<div class="socials">
+
+<a href="#"><i class="fab fa-facebook-f"></i></a>
+
+<a href="#"><i class="fab fa-instagram"></i></a>
+
+<a href="#"><i class="fab fa-tiktok"></i></a>
+
+<a href="#"><i class="fab fa-whatsapp"></i></a>
+
+</div>
+
+</div>
+
+<div class="contact-box">
+
+<h2>Send Message</h2>
+
+<form class="contact-form">
+
+<input type="text" placeholder="Your Name" required>
+
+<input type="email" placeholder="Your Email" required>
+
+<input type="text" placeholder="Subject">
+
+<textarea placeholder="Write your message..."></textarea>
+
+<button type="submit">
+
+<i class="fa-solid fa-paper-plane"></i>
+
+Send Message
+
+</button>
+
+</form>
+
+</div>
+
+</section>
+
+<section class="map">
+
+<iframe
+src="https://www.google.com/maps?q=Lahore%20Pakistan&output=embed"
+loading="lazy">
+</iframe>
+
+</section>
+
+<footer>
+
+<h2>Pyary Apple</h2>
+
+<p>Pakistan's Premium Apple Store</p>
+
+<p>© 2026 All Rights Reserved</p>
+
+</footer>
+
+<script src="js/app.js"></script>
+
+</body>
+
+</html>

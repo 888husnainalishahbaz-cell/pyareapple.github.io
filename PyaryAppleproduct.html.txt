@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Product Details | Pyary Apple</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <style>
+
+        .product-page{
+            margin-top:120px;
+            padding:60px 8%;
+            display:grid;
+            grid-template-columns:1fr 1fr;
+            gap:60px;
+        }
+
+        .product-image img{
+            width:100%;
+            border-radius:20px;
+            background:#111;
+        }
+
+        .badge{
+            display:inline-block;
+            padding:8px 18px;
+            background:#ff3b3b;
+            border-radius:30px;
+            margin-bottom:15px;
+            font-size:14px;
+        }
+
+        .price{
+            font-size:38px;
+            color:#ff3b3b;
+            margin:20px 0;
+            font-weight:700;
+        }
+
+        .storage{
+            display:flex;
+            gap:15px;
+            flex-wrap:wrap;
+            margin:20px 0;
+        }
+
+        .storage button{
+            padding:12px 22px;
+            border:none;
+            border-radius:10px;
+            background:#111;
+            color:#fff;
+            cursor:pointer;
+        }
+
+        .storage button:hover{
+            background:#ff3b3b;
+        }
+
+        .specs{
+            margin:30px 0;
+        }
+
+        .specs li{
+            margin:12px 0;
+            color:#ccc;
+        }
+
+        .buy-buttons{
+            display:flex;
+            gap:20px;
+            flex-wrap:wrap;
+        }
+
+        .buy-buttons a{
+            text-decoration:none;
+            padding:15px 30px;
+            border-radius:50px;
+            font-weight:600;
+        }
+
+        .buy{
+            background:#ff3b3b;
+            color:#fff;
+        }
+
+        .whatsapp{
+            background:#25D366;
+            color:#fff;
+        }
+
+        .related{
+            padding:70px 8%;
+        }
+
+        .related h2{
+            text-align:center;
+            margin-bottom:40px;
+        }
+
+        @media(max-width:900px){
+
+            .product-page{
+                grid-template-columns:1fr;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<nav class="navbar">
+
+    <div class="logo">
+        <i class="fa-brands fa-apple"></i>
+        <span>Pyary Apple</span>
+    </div>
+
+    <ul class="nav-links">
+
+        <li><a href="index.html">Home</a></li>
+
+        <li><a href="products.html">Products</a></li>
+
+        <li><a href="#">Deals</a></li>
+
+        <li><a href="#">About</a></li>
+
+        <li><a href="#">Contact</a></li>
+
+    </ul>
+
+    <a href="#" class="whatsapp-btn">
+        <i class="fa-brands fa-whatsapp"></i>
+        WhatsApp
+    </a>
+
+</nav>
+
+
+<section class="product-page">
+
+<div class="product-image">
+
+<img src="assets/images/iphone16.jpg" alt="iPhone 16 Pro Max">
+
+</div>
+
+
+<div class="product-info">
+
+<span class="badge">PTA Approved</span>
+
+<h1>iPhone 16 Pro Max</h1>
+
+<p>
+
+Experience Apple's most advanced smartphone with the powerful A18 Pro chip,
+professional camera system and premium titanium design.
+
+</p>
+
+<div class="price">
+
+Rs. 425,000
+
+</div>
+
+<h3>Storage</h3>
+
+<div class="storage">
+
+<button>128GB</button>
+
+<button>256GB</button>
+
+<button>512GB</button>
+
+<button>1TB</button>
+
+</div>
+
+<h3>Specifications</h3>
+
+<ul class="specs">
+
+<li>✔ A18 Pro Chip</li>
+
+<li>✔ Super Retina XDR OLED Display</li>
+
+<li>✔ 48MP Triple Camera</li>
+
+<li>✔ Face ID</li>
+
+<li>✔ USB-C Charging</li>
+
+<li>✔ Official Apple Warranty</li>
+
+</ul>
+
+<div class="buy-buttons">
+
+<a href="#" class="buy">
+<i class="fa-solid fa-cart-shopping"></i>
+Buy Now
+</a>
+
+<a href="#" class="whatsapp">
+<i class="fa-brands fa-whatsapp"></i>
+Chat on WhatsApp
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section class="related">
+
+<h2>Related Products</h2>
+
+<div class="product-grid">
+
+<div class="product-card">
+
+<img src="assets/images/iphone15.jpg">
+
+<h3>iPhone 15 Pro</h3>
+
+<p>Factory Unlocked</p>
+
+<h4>Rs.339,000</h4>
+
+<a href="#">View</a>
+
+</div>
+
+<div class="product-card">
+
+<img src="assets/images/watch.jpg">
+
+<h3>Apple Watch Ultra</h3>
+
+<p>Original Apple</p>
+
+<h4>Rs.229,000</h4>
+
+<a href="#">View</a>
+
+</div>
+
+<div class="product-card">
+
+<img src="assets/images/macbook.jpg">
+
+<h3>MacBook Air M4</h3>
+
+<p>Apple Silicon</p>
+
+<h4>Rs.359,000</h4>
+
+<a href="#">View</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<footer>
+
+<h2>Pyary Apple</h2>
+
+<p>Pakistan's Premium Apple Store</p>
+
+<p>© 2026 All Rights Reserved</p>
+
+</footer>
+
+<script src="js/app.js"></script>
+
+</body>
+
+</html>
